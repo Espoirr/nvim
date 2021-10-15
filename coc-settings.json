@@ -52,10 +52,10 @@
   "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
   "diagnostic.virtualText": false,
-  "snippets.userSnippetsDirectory": "C:/Users/yourp/AppData/Local/nvim/snips",
   "snippets.extends": {
     "javascriptreact": ["javascript"],
     "typescript": ["javascript"]
   },
-  "snippets.snipmate.author": "Pawan Kanhere"
+  "snippets.snipmate.author": "Pawan Kanhere",
+  "snippets.textmateSnippetsRoots": ["C:\\Users\\yourp\\.vsnip"]
 }

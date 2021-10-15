@@ -14,6 +14,7 @@ return require("packer").startup(function()
     
     use {'neoclide/coc.nvim', branch = 'release'}
     use {'honza/vim-snippets'}
+    use {'hrsh7th/vim-vsnip'}
     use {'nvim-treesitter/nvim-treesitter',run = ':TSUpdate'}
     use {'windwp/nvim-ts-autotag'}
     use {'b3nj5m1n/kommentary',config = "require('core.comment')"}

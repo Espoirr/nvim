@@ -31,6 +31,7 @@ set autoindent
 set mouse=a  " mouse support
 set cmdheight=1
 set updatetime=300
+set timeoutlen=300
 set shortmess+=c
 "set signcolumn=number
 "set completeopt=menuone,noselect,noinsert
@@ -41,5 +42,6 @@ set scrolloff=14
 "folding stuff
 set foldmethod=manual
 set foldcolumn=2
+
 
 

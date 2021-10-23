@@ -5,10 +5,9 @@
      --darker = true
  --},
 --})
+--
 
---vim.g.material_style = "darker"
 
 vim.cmd[[
 colorscheme nvcode 
 ]]
-

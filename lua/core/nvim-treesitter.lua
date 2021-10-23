@@ -6,7 +6,7 @@ require("nvim-treesitter.configs").setup({
     disable = {}, -- list of language that will be disabled
   },
   rainbow = {
-      enable = false, 
+      enable = true, 
       extended_mode = true,
       max_file_lines = nil,
   },

@@ -66,7 +66,10 @@ local icons = {
   xSign               = '✘ ',
   exclamaterLetter    = '',
   infoLetter          = '',
+  longLine            = '│'  
   
 }
+
+
 
 return icons

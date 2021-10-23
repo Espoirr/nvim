@@ -3,9 +3,13 @@ runtime ./vim-files/base.vim
 runtime ./vim-files/keymappings.vim
 runtime ./vim-files/telescope.vim
 runtime ./vim-files/vim-illuminate.vim
-runtime ./vim-files/coc-extensions.vim
-runtime ./vim-files/coc-mappings.vim
+
 ]])
+
+--[[ runtime ./vim-files/coc-extensions.vim
+runtime ./vim-files/coc-mappings.vim ]]
+
+
 
 
 require('core/lualine')
@@ -14,17 +18,19 @@ require('core/colorscheme')
 require('core/nvim-treesitter')
 require('core/comment')
 require('core/toggleterm')
-require('nvim-ts-autotag').setup()
 require('core/gitsigns')
-require('todo-comments').setup{}
+require('core/whichkey')
+require('core/autocompletion')
+require('core/lspkind')
+require('core/lsputils')
+
+require('nvim-ts-autotag').setup()
+require('todo-comments').setup()
+require('nvim-autopairs').setup()
 
 
 
-
--- TODO: Add ligature support
 -- TODO: Add proper italics support
--- TODO: Improve Git Signs support
--- TODO: write useEffect snippet
--- TODO: make a leader shortcut for creating folding
+-- TODO: add git commands to which key
 -- FIX: NvimTree shifting to right after telescope search
 

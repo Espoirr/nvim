@@ -2,8 +2,6 @@
 "nmap <C-/>   <Plug>NERDCommenterToggle
 "vmap <C-/>   <Plug>NERDCommenterToggle<CR>gv
 
-
-
 lua <<EOF
 local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = true, silent = true}
@@ -33,11 +31,11 @@ map('n', '<A-k>', '<C-w>k', default_opts)
 map('n', '<C-l>', '<C-w>l', default_opts)
 
 -- tabline mapings
-map('n', '<A-1>', ':BufferGoto 1<CR>', default_opts)
-map('n', '<A-2>', ':BufferGoto 2<CR>', default_opts)
-map('n', '<A-3>', ':BufferGoto 3<CR>', default_opts)
-map('n', '<A-4>', ':BufferGoto 4<CR>', default_opts)
-map('n', '<A-5>', ':BufferGoto 5<CR>', default_opts)
+map('n', '<A-1>', ':BufferGoto 2<CR>', default_opts)
+map('n', '<A-2>', ':BufferGoto 3<CR>', default_opts)
+map('n', '<A-3>', ':BufferGoto 4<CR>', default_opts)
+map('n', '<A-4>', ':BufferGoto 5<CR>', default_opts)
+map('n', '<A-5>', ':BufferGoto 6<CR>', default_opts)
 map('n', '<leader>k', ':BufferClose<CR>', default_opts)
 
 -- Line bubbling

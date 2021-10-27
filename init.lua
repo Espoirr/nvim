@@ -5,7 +5,6 @@ runtime ./vim-files/telescope.vim
 runtime ./vim-files/vim-illuminate.vim
 runtime ./vim-files/coc-extensions.vim
 runtime ./vim-files/coc-mappings.vim
-
 ]])
 
 
@@ -25,6 +24,6 @@ require('todo-comments').setup()
 
 
 -- TODO: Add proper italics support
--- TODO: add git commands to which key
 -- FIX: NvimTree shifting to right after telescope search
+-- TODO: Finish polishing telescope and commit it, add telescope to whichkey
 

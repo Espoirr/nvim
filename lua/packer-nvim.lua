@@ -10,8 +10,8 @@ return require("packer").startup(function()
     use {'Mofiqul/vscode.nvim'}
     use {'sainnhe/edge'}
     use {'shaunsingh/nord.nvim'}
+    use {'github/copilot.vim'}
     
-
     use {'kyazdani42/nvim-tree.lua',requires = 'kyazdani42/nvim-web-devicons'}
     use {'hoob3rt/lualine.nvim',requires = {'kyazdani42/nvim-web-devicons', opt = true}}
     use {'romgrk/barbar.nvim',requires = {'kyazdani42/nvim-web-devicons'}}
@@ -35,6 +35,7 @@ return require("packer").startup(function()
 
     --telescope
     use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
+    use {'fannheyward/telescope-coc.nvim'}
     use {'nvim-telescope/telescope-fzy-native.nvim'}
     use {'tpope/vim-surround'}
     use {'akinsho/toggleterm.nvim'}

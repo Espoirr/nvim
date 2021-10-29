@@ -101,6 +101,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\edge"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\formatter.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim"
@@ -142,6 +146,10 @@ _G.packer_plugins = {
   ["nord.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim"
   },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,
@@ -203,6 +211,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popfix"
   },
+  ["stylua-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\stylua-nvim"
+  },
   ["telescope-fzy-native.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-fzy-native.nvim"
@@ -222,6 +234,11 @@ _G.packer_plugins = {
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim"
+  },
+  ["trouble.nvim"] = {
+    config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,
@@ -274,6 +291,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for hop]], true)
 try_loadstring("\27LJ\2\nU\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\tkeys\28etovxqpdygfblzhckisuran\nsetup\bhop\frequire\0", "config", "hop")
 time([[Config for hop]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
 -- Config for: kommentary
 time([[Config for kommentary]], true)
 require('core.comment')

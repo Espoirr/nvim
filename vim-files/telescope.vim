@@ -1,8 +1,12 @@
 " Using Lua functions
-nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
-nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
-nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+" nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+" nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
+" nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
+" nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
+" nnoremap <leader>fc <cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<cr>
+" nnoremap <leader>fgs <cmd>lua require('telescope.builtin').git_status()<cr>
+" nnoremap <leader>fgc <cmd>lua require('telescope.builtin').git_commits()<cr>
+
 
 lua << EOF
 local actions = require('telescope.actions')
@@ -45,13 +49,13 @@ require('telescope').setup {
             }
         },
     extensions = {
-        fzf = {
-            override_generic_sorter = false,
+        fzy_native = {
+            override_generic_sorter = true,
             override_file_sorter = true,
-            case_mode = "smart_case",
         }
     }
 }
-require('telescope').load_extension('fzy_native')
+ require('telescope').load_extension('fzy_native')
+ require('telescope').load_extension('coc')
 
 EOF

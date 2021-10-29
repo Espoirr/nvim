@@ -93,6 +93,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.vim"
+  },
   ["diffview.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\diffview.nvim"
@@ -100,10 +104,6 @@ _G.packer_plugins = {
   edge = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\edge"
-  },
-  ["formatter.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\formatter.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -146,10 +146,6 @@ _G.packer_plugins = {
   ["nord.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord.nvim"
-  },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim"
   },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,
@@ -207,13 +203,9 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim"
   },
-  popfix = {
+  ["telescope-coc.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popfix"
-  },
-  ["stylua-nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\stylua-nvim"
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-coc.nvim"
   },
   ["telescope-fzy-native.nvim"] = {
     loaded = true,

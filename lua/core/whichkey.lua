@@ -63,17 +63,32 @@ require("which-key").setup {
 }
 wk.register({
     q = {":q<cr>", "Quit"},
+    f = {
+        name = "Find",
+        f = {"<cmd>Telescope find_files<cr>","Find Files"},
+        b = {"<cmd>Telescope buffers<cr>","Find Open Buffers"},
+        h = {"<cmd>Telescope help_tags<cr>","Help Docs"},
+        g = {"<cmd>Telescope live_grep<cr>","Global Search"},
+        c = {"<cmd>Telescope current_buffer_fuzzy_find<cr>","Find in current buffer"},
+    },
+    z = {
+        name = "Fold",
+        ["{"] = {"vi{ | zf", "Creates {} fold"},
+        ["("] = {"vi( | zf", "Creates () fold"},
+        ["t"] = {"vit | zf", "Creates html tag fold"},
+
+    },
+    b = {
+        name = "Buffers",
+        a = {":BufferCloseAllButCurrent<cr>", "Close all buffers"},
+        n = {":BufferNext<cr>", "Next Buffer"},
+        p = {":BufferPrevious<cr>", "Previous Buffer"},
+    },
+    g = {
+        name = "Go to",
+        r = {"<cmd>Telescope coc references<cr>", "Go to references"},
+        s = {"<cmd>Telescope coc document_symbols<cr>", "Go to document symbols"},
+        d = {"<cmd>Telescope coc workspace_diagnostics<cr>", "Go to diagnostics"},
+    },
 },{ prefix = "<leader>"})
 
-wk.register({
-    ["<leader>z"] = { name = "Fold" },
-    ["<leader>z{"] = { "vi{ | zf", "Creates '{}' fold" },
-    ["<leader>z("] = { "vi( | zf", "Creates '()' fold" },
-    ["<leader>zt"] = { "vit | zf", "Creates html tag fold" },
-
-    ["<leader>t"] = { name = "Buffers" },
-    ["<leader>tt"] = {":BufferCloseAllButCurrent<cr>", "Close all buffers"},
-    ["<leader>tn"] = {":BufferNext<cr>", "Next Buffer"},
-    ["<leader>tp"] = {":BufferPrevious<cr>", "Previous Buffer"},
-
-})

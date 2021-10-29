@@ -21,8 +21,6 @@ map('v','<C-/>','gc', {})
 
 --hop word
 map('n','q',':HopWord<CR>',default_opts)
--- todo comment
-map('n','<leader>todo', ':TodoTelescope<CR>',default_opts)
 
 -- move around splits using Ctrl + {h,j,k,l}
 map('n', '<C-h>', '<C-w>h', default_opts)

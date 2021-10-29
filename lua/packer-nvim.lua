@@ -23,7 +23,6 @@ return require("packer").startup(function()
 
     -- utils
     use {'folke/which-key.nvim'}
-    use {'kevinhwang91/nvim-bqf'}
     use {'lukas-reineke/indent-blankline.nvim'}
     use {'RRethy/vim-illuminate'}
     use {'tpope/vim-repeat'}

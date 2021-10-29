@@ -89,6 +89,8 @@ wk.register({
         r = {"<cmd>Telescope coc references<cr>", "Go to references"},
         s = {"<cmd>Telescope coc document_symbols<cr>", "Go to document symbols"},
         d = {"<cmd>Telescope coc workspace_diagnostics<cr>", "Go to diagnostics"},
+        t = {"<cmd>TodoTelescope<cr>", "Todo List"}
+
     },
     c = {
         name = "COC Actions",

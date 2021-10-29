@@ -11,5 +11,4 @@ let g:coc_global_extensions = [
             \'coc-tsserver', 
             \'coc-pairs', 
             \'coc-tailwindcss',
-            \'coc-lua',
             \'coc-highlight']

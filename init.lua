@@ -21,7 +21,7 @@ require("core/whichkey")
 require("core/autocompletion")
 require("core/lspkind")
 require("core/lsputils")
--- require("core/formatter")
+require("core/formatter")
 require("core/null-ls")
 
 require("nvim-ts-autotag").setup()
@@ -31,4 +31,3 @@ require("nvim-autopairs").setup()
 -- TODO: Add proper italics support
 -- TODO: add git commands to which key
 -- FIX: NvimTree shifting to right after telescope search
-

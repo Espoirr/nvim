@@ -42,9 +42,13 @@ return require("packer").startup(
     use {"psliwka/vim-smoothie"}
 
     --easy motion
-    use {"phaazon/hop.nvim", as = "hop", config = function()
+    use {
+      "phaazon/hop.nvim",
+      as = "hop",
+      config = function()
         require "hop".setup {keys = "etovxqpdygfblzhckisuran"}
-      end}
+      end
+    }
     use {"folke/todo-comments.nvim", requires = "nvim-lua/plenary.nvim"}
 
     --lsp autocomplete
@@ -64,8 +68,14 @@ return require("packer").startup(
     use {"hrsh7th/vim-vsnip"}
     use {"windwp/nvim-autopairs"}
     use {"mhartington/formatter.nvim"}
-    use({"jose-elias-alvarez/null-ls.nvim",requires = {"nvim-lua/plenary.nvim", "neovim/nvim-lspconfig"}})  
-         
-
+    use({"jose-elias-alvarez/null-ls.nvim", requires = {"nvim-lua/plenary.nvim", "neovim/nvim-lspconfig"}})
+    use({"ckipp01/stylua-nvim"})
+    use {
+      "folke/trouble.nvim",
+      requires = "kyazdani42/nvim-web-devicons",
+      config = function()
+        require("trouble").setup {}
+      end
+    }
   end
 )

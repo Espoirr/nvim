@@ -1,7 +1,9 @@
 -- LSP settings
 local nvim_lsp = require 'lspconfig'
-local on_attach = function(_, bufnr)
+local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
+  client.resolved_capabilities.document_formatting = false
+  client.resolved_capabilities.document_range_formatting = false
 
   local opts = { noremap = true, silent = true }
   vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
@@ -33,6 +35,7 @@ capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 local servers = { 'html', 'cssls', 'jsonls', 'tsserver' }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
+      
     on_attach = on_attach,
     capabilities = capabilities,
   }

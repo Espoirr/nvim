@@ -57,5 +57,7 @@
     "typescript": ["javascript"]
   },
   "snippets.snipmate.author": "Pawan Kanhere",
-  "snippets.textmateSnippetsRoots": ["C:\\Users\\yourp\\.vsnip"]
+  "snippets.textmateSnippetsRoots": ["C:\\Users\\yourp\\.vsnip"],
+  "diagnostic.locationlistUpdate": true,
+  "diagnostic.refreshOnInsertMode": true
 }

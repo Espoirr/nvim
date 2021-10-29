@@ -90,5 +90,10 @@ wk.register({
         s = {"<cmd>Telescope coc document_symbols<cr>", "Go to document symbols"},
         d = {"<cmd>Telescope coc workspace_diagnostics<cr>", "Go to diagnostics"},
     },
+    c = {
+        name = "COC Actions",
+        a = {"<Plug>(coc-codeaction)", "Code Actions"},
+        d = {"<cmd>CocDiagnostics<cr>","Buffer Diagnostics List"}
+    }
 },{ prefix = "<leader>"})
 

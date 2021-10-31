@@ -62,7 +62,11 @@ require("which-key").setup {
 
 }
 wk.register({
-    q = {":q<cr>", "Quit"},
+    o = {
+        name = "Options",
+        q = {":q<cr>", "Quit"},
+        a = {"gg | V | G","Select all"}
+    },
     f = {
         name = "Find",
         f = {"<cmd>Telescope find_files<cr>","Find Files"},

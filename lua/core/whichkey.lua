@@ -74,6 +74,7 @@ wk.register({
         h = {"<cmd>Telescope help_tags<cr>","Help Docs"},
         g = {"<cmd>Telescope live_grep<cr>","Global Search"},
         c = {"<cmd>Telescope current_buffer_fuzzy_find<cr>","Find in current buffer"},
+        t = {"<cmd>TodoTelescope<cr>", "Find Todos"}
     },
     z = {
         name = "Fold",

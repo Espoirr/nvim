@@ -36,12 +36,15 @@ return require("packer").startup(function()
     use {'mg979/vim-visual-multi', branch='master'}
     use {'tpope/vim-surround'}
     use {'andymass/vim-matchup'}
+    use {'kevinhwang91/nvim-bqf'}
+
 
     --layout
     use {'kyazdani42/nvim-tree.lua',requires = 'kyazdani42/nvim-web-devicons'}
     use {'hoob3rt/lualine.nvim',requires = {'kyazdani42/nvim-web-devicons', opt = true}}
     use {'romgrk/barbar.nvim',requires = {'kyazdani42/nvim-web-devicons'}}
     use {'akinsho/toggleterm.nvim'}
+    use {'dstein64/nvim-scrollview'}
 
     -- Git
     use {'tpope/vim-fugitive'}

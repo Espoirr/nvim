@@ -13,6 +13,7 @@ return require("packer").startup(function()
 
     -- autocompletion
     use {'neoclide/coc.nvim', branch = 'release'}
+    use {'github/copilot.vim'}
 
     --snippets
     use {'honza/vim-snippets'}
@@ -28,6 +29,7 @@ return require("packer").startup(function()
     use {'tpope/vim-repeat'}
     use {'folke/todo-comments.nvim', requires = "nvim-lua/plenary.nvim"}
     use {'phaazon/hop.nvim',as = 'hop', config = function() require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' } end}
+
 
     -- editing
     use {'windwp/nvim-ts-autotag'}

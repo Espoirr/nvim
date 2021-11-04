@@ -9,6 +9,8 @@ runtime ./vim-files/coc-extensions.vim
 ]]
 )
 
+
+
 require('core/lualine')
 require('core/nvim-tree')
 require('core/colorscheme')

@@ -19,6 +19,7 @@ map('n','<c-y>','<c-r>',default_opts)
 map('n','<C-/>','gcc', {})
 map('v','<C-/>','gc', {})
 
+
 --hop word
 map('n','q',':HopWord<CR>',default_opts)
 

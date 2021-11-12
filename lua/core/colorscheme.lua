@@ -13,12 +13,12 @@ colorscheme nvcode
 ]]
 
 vim.cmd[[
-hi TSKeyword gui=italic,bold 
-hi TSKeywordFunction gui=italic,bold 
-hi TSConditional gui=italic,bold 
-hi TSRepeat gui=italic,bold 
-hi TSComment gui=italic,bold 
-hi TSBoolean gui=italic,bold 
-hi TSInclude gui=italic,bold 
+hi TSKeyword gui=italic
+hi TSKeywordFunction gui=italic
+hi TSConditional gui=italic
+hi TSRepeat gui=italic
+hi TSComment gui=italic
+hi TSBoolean gui=italic
+hi TSInclude gui=italic
 hi TSTypeBuiltin guifg=#C586C0
 ]]

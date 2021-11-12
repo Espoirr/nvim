@@ -1,6 +1,8 @@
 vim.cmd [[packadd packer.nvim]]
 return require("packer").startup(function()
 	use 'wbthomason/packer.nvim'
+    use {'equalsraf/neovim-gui-shim'}
+
     -- themes
     use {'christianchiarulli/nvcode-color-schemes.vim'}
     use {'folke/tokyonight.nvim'}
@@ -13,7 +15,6 @@ return require("packer").startup(function()
 
     -- autocompletion
     use {'neoclide/coc.nvim', branch = 'release'}
-    use {'github/copilot.vim'}
 
     --snippets
     use {'honza/vim-snippets'}

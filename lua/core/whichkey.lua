@@ -35,15 +35,15 @@ require("which-key").setup {
     group = "+", -- symbol prepended to a group
   },
   window = {
-    border = "none", -- none, single, double, shadow
+    border = "single", -- none, single, double, shadow
     position = "bottom", -- bottom, top
     margin = { 1, 0, 1, 0 }, -- extra window margin [top, right, bottom, left]
     padding = { 2, 2, 2, 2 }, -- extra window padding [top, right, bottom, left]
   },
   layout = {
-    height = { min = 4, max = 25 }, -- min and max height of the columns
+    height = { min = 6, max = 25 }, -- min and max height of the columns
     width = { min = 20, max = 50 }, -- min and max width of the columns
-    spacing = 3, -- spacing between columns
+    spacing = 5, -- spacing between columns
     align = "left", -- align columns left, center or right
   },
   ignore_missing = true, -- enable this to hide mappings for which you didn't specify a label
@@ -61,11 +61,19 @@ require("which-key").setup {
   },
 
 }
+vim.cmd([[
+
+hi WhichKeyFloat guibg=#1a1a1a
+hi WhichKey guifg=#c586c0
+hi WhichKeyGroup guifg=#ce9178
+
+]])
 wk.register({
     o = {
         name = "Options",
         q = {":q<cr>", "Quit"},
-        a = {"gg | V | G","Select all"}
+        a = {"gg | V | G","Select all"},
+        t = {"<cmd>Telescope colorscheme<cr>","Choose colorscheme"}
     },
     f = {
         name = "Find",
@@ -75,6 +83,7 @@ wk.register({
         g = {"<cmd>Telescope live_grep<cr>","Global Search"},
         c = {"<cmd>Telescope current_buffer_fuzzy_find<cr>","Find in current buffer"},
         t = {"<cmd>TodoTelescope<cr>", "Find Todos"}
+        
     },
     z = {
         name = "Fold",
@@ -103,4 +112,5 @@ wk.register({
         d = {"<cmd>CocDiagnostics<cr>","Buffer Diagnostics List"}
     }
 },{ prefix = "<leader>"})
+
 

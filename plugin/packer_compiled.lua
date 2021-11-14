@@ -74,10 +74,35 @@ _G.packer_plugins = {
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
-  ["coc.nvim"] = {
+  ["cmp-buffer"] = {
     loaded = true,
-    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
+  },
+  ["cmp-emoji"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-emoji",
+    url = "https://github.com/hrsh7th/cmp-emoji"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   ["diffview.nvim"] = {
     loaded = true,
@@ -111,6 +136,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\kommentary",
     url = "https://github.com/b3nj5m1n/kommentary"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
+    url = "https://github.com/onsails/lspkind-nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspsaga.nvim",
+    url = "https://github.com/tami5/lspsaga.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
@@ -141,15 +176,35 @@ _G.packer_plugins = {
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord.nvim",
     url = "https://github.com/shaunsingh/nord.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvcode-color-schemes.vim"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvcode-color-schemes.vim",
     url = "https://github.com/christianchiarulli/nvcode-color-schemes.vim"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-bqf"] = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-bqf",
     url = "https://github.com/kevinhwang91/nvim-bqf"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-scrollview"] = {
     loaded = true,
@@ -225,6 +280,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\yourp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
   },
   ["vim-fugitive"] = {
     loaded = true,

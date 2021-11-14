@@ -100,16 +100,15 @@ wk.register({
     },
     g = {
         name = "Go to",
-        r = {"<cmd>Telescope coc references<cr>", "Go to references"},
-        s = {"<cmd>Telescope coc document_symbols<cr>", "Go to document symbols"},
-        d = {"<cmd>Telescope coc workspace_diagnostics<cr>", "Go to diagnostics"},
-        t = {"<cmd>TodoTelescope<cr>", "Todo List"}
+        w = {"<cmd>TroubleToggle lsp_workspace_diagnostics<cr>", "Workspace diagnostics"},
+        d = {"<cmd>TroubleToggle lsp_document_diagnostics<cr>", "Document diagnostics"},
+        r = {"<cmd>TroubleToggle lsp_references<cr>", "References"},
 
     },
     c = {
-        name = "COC Actions",
-        a = {"<Plug>(coc-codeaction)", "Code Actions"},
-        d = {"<cmd>CocDiagnostics<cr>","Buffer Diagnostics List"}
+        name = "Code Actions",
+        a = {"<cmd>Lspsaga code_action<cr>", "Code Actions"}
+
     }
 },{ prefix = "<leader>"})
 

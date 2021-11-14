@@ -2,6 +2,12 @@
 "nmap <C-/>   <Plug>NERDCommenterToggle
 "vmap <C-/>   <Plug>NERDCommenterToggle<CR>gv
 
+imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
+let g:copilot_no_tab_map = v:true
+
+highlight CopilotSuggestion guifg=#555555 ctermfg=8
+
+
 lua <<EOF
 local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = true, silent = true}
@@ -22,6 +28,10 @@ map('v','<C-/>','gc', {})
 
 --hop word
 map('n','q',':HopWord<CR>',default_opts)
+
+-- renamer
+map('n', '<F2>', '<cmd>lua require("renamer").rename()<cr>', { noremap = true, silent = true })
+
 
 -- move around splits using Ctrl + {h,j,k,l}
 map('n', '<C-h>', '<C-w>h', default_opts)

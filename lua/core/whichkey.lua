@@ -82,7 +82,11 @@ wk.register({
         h = {"<cmd>Telescope help_tags<cr>","Help Docs"},
         g = {"<cmd>Telescope live_grep<cr>","Global Search"},
         c = {"<cmd>Telescope current_buffer_fuzzy_find<cr>","Find in current buffer"},
-        t = {"<cmd>TodoTelescope<cr>", "Find Todos"}
+        t = {"<cmd>TodoTelescope<cr>", "Find Todos"},
+        ["1"] = {":CocSearch -i ", "Search project (ignore case)"},
+        ["2"] = {":CocSearch ", "Search project (normal search)"},
+        ["3"] = {":CocSearch -w -i ", "Search project (case insensitive word)"},
+        ["4"] = {":CocSearch -w ", "Search project (case sensitive word)"},
         
     },
     z = {

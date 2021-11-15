@@ -1,4 +1,6 @@
-vim.cmd [[packadd packer.nvim]]
+vim.cmd [[
+packadd packer.nvim
+]]
 return require("packer").startup(function()
 	use 'wbthomason/packer.nvim'
     use {'equalsraf/neovim-gui-shim'}
@@ -39,7 +41,6 @@ return require("packer").startup(function()
     use {'mg979/vim-visual-multi', branch='master'}
     use {'tpope/vim-surround'}
     use {'andymass/vim-matchup'}
-    use {'kevinhwang91/nvim-bqf'}
     use {'JoosepAlviste/nvim-ts-context-commentstring'}
 
 

@@ -34,7 +34,7 @@ return require("packer").startup(function()
 
     -- editing
     use {'windwp/nvim-ts-autotag'}
-    use {'b3nj5m1n/kommentary',config = "require('core.comment')"}
+    use {'b3nj5m1n/kommentary'}
     use {'p00f/nvim-ts-rainbow'}
     use {'mg979/vim-visual-multi', branch='master'}
     use {'tpope/vim-surround'}

@@ -14,14 +14,11 @@ require('core/lualine')
 require('core/nvim-tree')
 require('core/colorscheme')
 require('core/nvim-treesitter')
-require('core/comment')
 require('core/toggleterm')
 require('core/gitsigns')
 require('core/whichkey')
 
 require('nvim-ts-autotag').setup()
 require('todo-comments').setup()
+require('core/comment').setup()
 
-
-
--- TODO: Fix comment string with vim kommentary

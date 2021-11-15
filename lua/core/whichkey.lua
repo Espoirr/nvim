@@ -97,6 +97,7 @@ wk.register({
         a = {":BufferCloseAllButCurrent<cr>", "Close all buffers"},
         n = {":BufferNext<cr>", "Next Buffer"},
         p = {":BufferPrevious<cr>", "Previous Buffer"},
+        j = {":BufferPick<cr>","Jump Buffer"}
     },
     g = {
         name = "Go to",

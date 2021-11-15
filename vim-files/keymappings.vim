@@ -19,6 +19,11 @@ map('n','<c-y>','<c-r>',default_opts)
 map('n','<C-/>','gcc', {})
 map('v','<C-/>','gc', {})
 
+-- barbar
+map('n', '<A-l>', '<cmd>BufferNext<cr>',{})
+map('n', '<A-h>', '<cmd>BufferPrevious<cr>',{})
+
+
 
 --hop word
 map('n','q',':HopWord<CR>',default_opts)

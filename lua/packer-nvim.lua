@@ -63,5 +63,17 @@ return require("packer").startup(function()
     use {'fannheyward/telescope-coc.nvim'}
     use {'nvim-telescope/telescope-fzy-native.nvim'}
 
+    -- language specific plugins
+    use {'mattn/emmet-vim'}
+
 end
 )
+
+
+
+
+
+
+
+
+

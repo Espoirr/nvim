@@ -10,7 +10,11 @@ require("nvim-treesitter.configs").setup({
       extended_mode = true,
       max_file_lines = nil,
   },
-  matchup = {
+  --[[ matchup = {
       enable = true
+  }, ]]
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
   }
 })

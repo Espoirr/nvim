@@ -40,6 +40,7 @@ return require("packer").startup(function()
     use {'tpope/vim-surround'}
     use {'andymass/vim-matchup'}
     use {'kevinhwang91/nvim-bqf'}
+    use {'JoosepAlviste/nvim-ts-context-commentstring'}
 
 
     --layout
@@ -60,6 +61,6 @@ return require("packer").startup(function()
     use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
     use {'fannheyward/telescope-coc.nvim'}
     use {'nvim-telescope/telescope-fzy-native.nvim'}
-    
+
 end
 )

@@ -13,3 +13,4 @@ let g:coc_global_extensions = [
             \'coc-tailwindcss',
             \'coc-tabnine',
             \'coc-highlight']
+

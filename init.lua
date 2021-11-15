@@ -24,6 +24,4 @@ require('todo-comments').setup()
 
 
 
--- TODO: Add proper italics support
--- FIX: NvimTree shifting to right after telescope search
-
+-- TODO: Fix comment string with vim kommentary

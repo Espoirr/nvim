@@ -6,7 +6,7 @@ if exists('g:GuiLoaded')
 	"GuiLinespace 6
 	"GuiFont! Cascadia\ Code:h11
 	GuiFont! OperatorMono\ Nerd\ Font:h12
-    GuiScrollBar 1
+    GuiScrollBar 0
 
 endif
 

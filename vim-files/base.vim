@@ -34,8 +34,8 @@ set updatetime=300
 set timeoutlen=300
 set shortmess+=c
 "set signcolumn=number
-"set completeopt=menuone,noselect,noinsert
-set completeopt=menuone,noselect
+set completeopt=menuone,noselect,noinsert
+" set completeopt=menuone,noselect
 set termguicolors
 set scrolloff=14
 

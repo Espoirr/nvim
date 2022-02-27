@@ -9,8 +9,9 @@ let g:coc_global_extensions = [
             \'coc-prettier', 
             \'coc-snippets', 
             \'coc-tsserver', 
+            \'coc-powershell', 
             \'coc-pairs', 
             \'coc-tailwindcss',
-            \'coc-tabnine',
             \'coc-highlight']
 
+           " \'coc-tabnine',

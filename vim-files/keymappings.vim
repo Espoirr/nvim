@@ -2,12 +2,16 @@
 "nmap <C-/>   <Plug>NERDCommenterToggle
 "vmap <C-/>   <Plug>NERDCommenterToggle<CR>gv
 
+"emmet
+let g:user_emmet_leader_key = '<leader>t'
+
 lua <<EOF
 local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = true, silent = true}
 
 vim.g.mapleader = ' '
 vim.b.mapleader = ' '
+
 
 -- general key binds
 map('i', 'jj', '<esc>',default_opts)

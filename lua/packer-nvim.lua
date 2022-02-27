@@ -32,6 +32,7 @@ return require("packer").startup(function()
     use {'tpope/vim-repeat'}
     use {'folke/todo-comments.nvim', requires = "nvim-lua/plenary.nvim"}
     use {'phaazon/hop.nvim',as = 'hop', config = function() require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' } end}
+    use {'kevinhwang91/nvim-bqf'}
 
 
     -- editing
